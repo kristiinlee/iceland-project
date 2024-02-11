@@ -11,6 +11,10 @@ body {
   .img-responsive {
     max-width: 100%;
   }
+
+  .text-center {
+    text-align: center;
+  }
   
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -71,10 +75,54 @@ body {
     grid-template-columns: 1fr 2fr 2fr;
   }
 
+  .grid-4-columns {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .card {
+    background: white;
+    margin: 30px 0px;
+    padding: 32px
+  }
+
+  .card h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #272044;
+    text-align: center;
+  }
+
+  .card h5 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #272044;
+  }
+
+  .btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background: #272044;
+    text-decoration: none;
+  }
+
   section {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 100px;
+  }
+
+  section.secondary {
+    background: #f8f8f8;
   }
 
   main {
